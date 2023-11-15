@@ -1,9 +1,9 @@
 const squareArray=(arr)=>{
-    var c=[];
+    var sum=[];
     for (let i = 0; i < arr.length; i++) {
-        c[i]=arr[i]*arr[i];
+        sum[i]=arr[i]*arr[i];
          
     }
-   return c;
+   return sum;
 }
 console.log(  squareArray([20,10,30]));
