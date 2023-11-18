@@ -5,4 +5,4 @@ function stringModifier(word,pos,rep){
     return wordSplit.join("");
 
 }
-console.log(stringModifier("paggy",2,"e"));
+console.log(stringModifier("Allen",2,"u"));
